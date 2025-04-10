@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TypeRacer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>TypeRacer</h1>
+  </header>
+
+  <main class="container">
+
+    <div class="timer-display">
+      <strong>Time: <span id="timer">X.XX</span></strong>
+    </div>
+
+    <div id="textDisplay" class="text-box">
+      Your typing text goes here..
+    </div>
+
+    <input type="text" id="inputArea" class="input-box" placeholder="Your typing text goes here.." autofocus>
+
+    <div class="button-group">
+        <button id="quitBtn" class="button-3" role="button">Quit</button>
+        <button id="resetBtn" class="button-3" role="button">Reset</button>
+        <button id="restartBtn" class="button-3" role="button">Restart</button>
+      </div>
+      
+
+    <div id="recentsBox" class="recents-box">
+      <h3>Recent Times:</h3>
+      <ul id="recentsList"></ul>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
